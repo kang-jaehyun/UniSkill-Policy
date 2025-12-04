@@ -1,0 +1,43 @@
+[project]
+name = "uniskill-policy"
+version = "0.1.0"
+description = "UniSkill Policy: A Modular Framework for Robot Learning from Demonstration"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.13.3",
+    "h5py",
+    "psutil",
+    "tqdm",
+    "termcolor",
+    "tensorboard",
+    "tensorboardX",
+    "imageio",
+    "imageio-ffmpeg==0.6.0",
+    "matplotlib",
+    "torch==2.0.1",
+    "torchvision==0.15.2",
+    "diffusers==0.23.0",
+    "wandb",
+    "transformers==4.36.2",
+    "tianshou==0.4.10",
+    "bddl",
+    "libero",
+    "robocasa",
+    "robosuite",
+    "easydict",
+    "hydra-core",
+    "omegaconf",
+    "thop",
+    "einops",
+    "cloudpickle",
+    "opencv-python",
+    "gym==0.25.2",
+    "huggingface-hub<0.25.0",
+]
+
+[tool.uv.sources]
+uniskill-policy = { path = ".", editable = true }
+libero = { path = "./LIBERO", editable = true }
+robocasa = { path = "./robocasa", editable = true }
+robosuite = { path = "./robosuite", editable = true }
