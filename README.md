@@ -17,7 +17,7 @@ This repository is the **policy learning component of UniSkill**, based on [robo
     *Note: The `--recursive` flag is important to initialize submodules (LIBERO, robocasa, robosuite).*
 
 2.  **Run the installation script:**
-    This script initializes submodules, installs `uv` if missing, fixes a package issue in LIBERO, and installs the environment.
+    This script initializes submodules, and installs the environment with `uv` .
     ```bash
     bash install_env.sh
     ```
