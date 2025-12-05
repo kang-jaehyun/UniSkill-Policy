@@ -112,9 +112,9 @@ You can evaluate trained policies using the provided `evaluate.sh` script locate
 
 ```bash
 ./robomimic/scripts/evaluate.sh \
-    --ckpt robomimic/expdata/uniskill/uniskill_policy/train/uniskill_policy/seed_0/20251203123233/models/model_epoch_2000.pth \
+    --ckpt path/to/checkpoint/model_epoch_2000.pth \
     --task LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate_demo \
-    --rollout_num 20 \
+    --rollout_num 50 \
     --horizon 500
 ```
 
