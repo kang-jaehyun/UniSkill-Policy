@@ -36,6 +36,11 @@ dependencies = [
     "huggingface-hub<0.25.0",
 ]
 
+[tool.uv]
+override-dependencies = [
+  "mujoco==3.4.0"
+]
+
 [tool.uv.sources]
 uniskill-policy = { path = ".", editable = true }
 libero = { path = "./LIBERO", editable = true }

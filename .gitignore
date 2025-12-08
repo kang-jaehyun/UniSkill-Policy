@@ -132,3 +132,6 @@ skills/
 LIBERO_bak/
 robocasa_bak/
 robosuite_bak/
+
+# Generated submodule fix
+LIBERO/libero/__init__.py
