@@ -11,8 +11,8 @@ This repository is the **policy learning component of UniSkill**, based on [robo
 
 1.  **Clone the repository:**
     ```bash
-    git clone --recursive https://github.com/kang-jaehyun/Uniskillpolicy.git
-    cd Uniskillpolicy
+    git clone --recursive https://github.com/kang-jaehyun/Uniskill-policy.git
+    cd Uniskill-policy
     ```
     *Note: The `--recursive` flag is important to initialize submodules (LIBERO, robocasa, robosuite).*
 
