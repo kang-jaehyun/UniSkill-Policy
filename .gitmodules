@@ -1,0 +1,13 @@
+[submodule "act"]
+	path = act
+	url = https://github.com/tonyzhaozh/act
+	branch = robomimic
+[submodule "LIBERO"]
+	path = LIBERO
+	url = https://github.com/Lifelong-Robot-Learning/LIBERO.git
+[submodule "robocasa"]
+	path = robocasa
+	url = https://github.com/robocasa/robocasa.git
+[submodule "robosuite"]
+	path = robosuite
+	url = https://github.com/ARISE-Initiative/robosuite.git
