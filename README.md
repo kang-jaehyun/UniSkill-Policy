@@ -43,7 +43,7 @@ Place the dataset files in the `datasets/libero_90` directory within the project
 
 ### 2. LIBERO Skills
 Download the pre-computed skill embeddings from the following link:
-*   [Google Drive Link](https://drive.google.com/file/d/104LGZZ4P4hDLcQCOq0YVOD2hfSSmBxPg/view?usp=drive_link)
+*   [Google Drive Link](https://drive.google.com/file/d/1EAZYBWb6GQPszazCpg1343RUf9XLHSlB/view?usp=share_link)
 
 Extract the skills to the `skills/` directory. The structure should look like this:
 ```
